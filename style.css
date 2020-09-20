@@ -143,6 +143,17 @@ footer p{
     justify-content: space-between;
 }
 
+.sci i{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease-in .5s;
+}
+
+.sci i:hover{
+    color: hsl(136, 65%, 51%);
+}
+
 .intro-image-mobile{
     display: none;
 }
@@ -200,6 +211,13 @@ footer p{
         top: 30px;
         width: 100%;
         border-radius: 10px;
+    }
+
+    .footer-icon{
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
 }
